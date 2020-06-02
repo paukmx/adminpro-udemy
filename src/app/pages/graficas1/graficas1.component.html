@@ -1,1 +1,59 @@
-<p>graficas1 works!</p>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <h4 class="card-title">{{graficos.grafico1.leyenda}}</h4>
+                        <app-grafico-dona [ChartLabels]="graficos.grafico1.labels" [ChartData]="[24, 30, 46]" [ChartType]=""></app-grafico-dona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <h4 class="card-title">{{graficos.grafico2.leyenda}}</h4>
+                        <app-grafico-dona [ChartLabels]="graficos.grafico2.labels" [ChartData]="[4500, 6000]" [ChartType]=""></app-grafico-dona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <h4 class="card-title">{{graficos.grafico3.leyenda}}</h4>
+                        <app-grafico-dona [ChartLabels]="graficos.grafico3.labels" [ChartData]="[95, 5]" [ChartType]=""></app-grafico-dona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <div>
+                        <h4 class="card-title">{{graficos.grafico4.leyenda}}</h4>
+                        <app-grafico-dona [ChartLabels]="graficos.grafico4.labels" [ChartData]="[85, 15]" [ChartType]=""></app-grafico-dona>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
